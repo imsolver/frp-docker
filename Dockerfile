@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER i@xudong.cc
 
-ENV FRP_VERSION 0.13.0
+ENV FRP_VERSION 0.22.0
 
 RUN set -ex \
 	&& apk add --no-cache --virtual .build-deps \
